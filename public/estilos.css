@@ -1,0 +1,84 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.navbar-brand img {
+    margin-right: 8px;
+}
+
+.carousel-item img {
+    max-height: 400px; /* Ajuste conforme necessário */
+    object-fit: cover;
+    width: 100%;
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+}
+
+.card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    height: 100%; /* Garante que todos os cards na mesma linha tenham a mesma altura */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px; /* Altura fixa para imagens dos cards */
+    object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Empurra o botão para baixo */
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    flex-grow: 1; /* Permite que o texto cresça para preencher o espaço */
+}
+
+#detalhes-receita-container img.img-fluid.rounded.mb-3 {
+    max-height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#secao-fotos-adicionais .card {
+    margin-bottom: 1rem;
+}
+#secao-fotos-adicionais .card-img-top {
+    height: 250px; /* Altura para fotos adicionais */
+    object-fit: cover;
+}
+
+#rodape {
+    background-color: #343a40; /* bg-dark do Bootstrap */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+#rodape p {
+    margin-bottom: 0.5rem;
+}
+
