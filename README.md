@@ -7,18 +7,16 @@ Nessa etapa, vamos evoluir o projeto anterior e contemplar um ambiente de desenv
 - Nome: Junio Tiago Dias
 - Matricula: 895521
 - Proposta de projeto escolhida: Diretório de Receitas
-- Breve descrição sobre seu projeto: 
+- Breve descrição sobre seu projeto: O site Sabor & Arte permite visualizar, buscar e filtrar receitas por categoria. Cada receita exibe nome, imagem, ingredientes e modo de preparo. As informações são carregadas de uma API.
 
 **Print do teste da API com visualização do JSON**
 
-![Visualização dos dados JSON retornados pela API](prints/print-api.png)
 
-
-<<  COLOQUE A IMAGEM AQUI >>
+<< ![Visualização dos dados JSON retornados pela API](prints/print-api.png) >>
 
 **Print da aba NETWORK com requisições Fetch/XHR**
 
-<<  COLOQUE A IMAGEM AQUI >>
+<<  ![Visualização dos dados JSON retornados pela API](prints/print-Fetch-XHR.png) >>
 
 ## **Orientações Gerais**
 
